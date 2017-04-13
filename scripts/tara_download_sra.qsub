@@ -1,0 +1,16 @@
+#!/bin/bash
+#PBS -l walltime=36:00:00,nodes=1:ppn=8
+#PBS -l mem=16gb
+#PBS -A ged
+#PBS -m abe
+#PBS -M harriet.xander@gmail.com
+#export MKL_NUM_THREADS=8
+#export OMP_NUM_THREADS=8
+
+cd /mnt/scratch/alexa503/tara/PRJEB1787_prok_shotgun
+
+cat /mnt/scratch/alexa503/tara/PRJEB1787_SRA_FTP_address.download.round.2.txt| parallel --jobs 8 curl -L {} -O
+
+#qstat -f ${PBS_JOBID}
+#cat ${PBS_NODEFILE} # Output Contents of the PBS NODEFILE
+#env | grep PBS # Print out values of the current jobs PBS environment variables

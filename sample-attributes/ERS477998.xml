@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="download accessions">
+<SAMPLE alias="TARA_E500000081" center_name="Genoscope" accession="ERS477998">
+     <IDENTIFIERS>
+          <PRIMARY_ID>ERS477998</PRIMARY_ID>
+          <EXTERNAL_ID namespace="BioSample">SAMEA2591098</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="GSC">TARA_E500000081</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>TARA_20091118T1240Z_023_EVENT_PUMP_P_D_(55-57m)_BACT_NUC-DNA(100L)_W0.22-1.6_TARA_E500000081</TITLE>
+     <SAMPLE_NAME>
+          <TAXON_ID>408172</TAXON_ID>
+          <SCIENTIFIC_NAME>marine metagenome</SCIENTIFIC_NAME>
+     </SAMPLE_NAME>
+     <DESCRIPTION>This sample (TARA_E500000081) was collected in the marine biome (ENVO:00000447) during Tara Oceans expedition on date/time=2009-11-18T13:50Z at station TARA_023 (latitudeN=42.1735, longitudeE=17.7252) from a deep chlorophyll maximum layer (ENVO:xxxxxxxx) at a depth of 53-57 m, using a PUMP (High Volume Peristaltic Pump) with ECOTriplet.  The sample material (saline water (ENVO:00002010), including plankton (ENVO:xxxxxxxx)) was size-fractionated (0.22-1.6 micrometres) and preserved on board  in liquid nitrogen for later phylogenetic analysis of prokaryote nucleotide sequences identification by pyrosequencing methods.</DESCRIPTION>
+     <SAMPLE_LINKS>
+          <SAMPLE_LINK>
+               <XREF_LINK>
+                    <DB>ENA-STUDY</DB>
+                    <ID>ERP001736</ID>
+               </XREF_LINK>
+          </SAMPLE_LINK>
+          <SAMPLE_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX140285,ERX289006,ERX289008</ID>
+               </XREF_LINK>
+          </SAMPLE_LINK>
+          <SAMPLE_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR164408,ERR315859-ERR315860</ID>
+               </XREF_LINK>
+          </SAMPLE_LINK>
+          <SAMPLE_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA318675</ID>
+               </XREF_LINK>
+          </SAMPLE_LINK>
+          <SAMPLE_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=ERS477998&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </SAMPLE_LINK>
+          <SAMPLE_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=ERS477998&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </SAMPLE_LINK>
+     </SAMPLE_LINKS>
+     <SAMPLE_ATTRIBUTES>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>Sampling Campaign</TAG>
+               <VALUE>TARA_20091111Z</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>Sampling Station</TAG>
+               <VALUE>TARA_023</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>Sampling Platform</TAG>
+               <VALUE>SV Tara</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>Event Label</TAG>
+               <VALUE>TARA_20091118T1240Z_023_EVENT_PUMP</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>Event Date/Time Start</TAG>
+               <VALUE>2009-11-18T13:50Z</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>Event Date/Time End</TAG>
+               <VALUE>2009-11-18T15:46Z</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>Latitude Start</TAG>
+               <VALUE>42.1735</VALUE>
+               <UNITS>DD</UNITS>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>Longitude Start</TAG>
+               <VALUE>17.7252</VALUE>
+               <UNITS>DD</UNITS>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>Latitude End</TAG>
+               <VALUE>42.1659</VALUE>
+               <UNITS>DD</UNITS>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>Longitude End</TAG>
+               <VALUE>17.7285</VALUE>
+               <UNITS>DD</UNITS>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>Depth</TAG>
+               <VALUE>55</VALUE>
+               <UNITS>m</UNITS>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>Sample Collection Device</TAG>
+               <VALUE>PUMP (High Volume Peristaltic Pump) with ECOTriplet</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>Protocol Label</TAG>
+               <VALUE>BACT_NUC-DNA(100L)_W0.22-1.6</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>Size Fraction Lower Threshold</TAG>
+               <VALUE>0.22</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>Size Fraction Upper Threshold</TAG>
+               <VALUE>1.6</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>Sample Status</TAG>
+               <VALUE>This version is NOT FINAL but can be used to provide data discovery services</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>Last Update Date</TAG>
+               <VALUE>2014-05-01Z</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>Marine Region</TAG>
+               <VALUE>(search radius=5 degree) Marine Ecoregion:Adriatic Sea (MRGID:3314), Marine Ecoregion:Ionian Sea (MRGID:3351)</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>Temperature</TAG>
+               <VALUE>15.194062</VALUE>
+               <UNITS>ºC</UNITS>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>Salinity Sensor</TAG>
+               <VALUE>38.472729</VALUE>
+               <UNITS>psu</UNITS>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>Oxygen Sensor</TAG>
+               <VALUE>224.786708</VALUE>
+               <UNITS>µmol/kg</UNITS>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>Nitrate Sensor</TAG>
+               <VALUE>99999</VALUE>
+               <UNITS>µmol/L</UNITS>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>Chlorophyll Sensor</TAG>
+               <VALUE>0.0599</VALUE>
+               <UNITS>mg Chl/m3</UNITS>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>Environment (Biome)</TAG>
+               <VALUE>marine biome (ENVO:00000447)</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>Environment (Feature)</TAG>
+               <VALUE>deep chlorophyll maximum layer (ENVO:xxxxxxxx)</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>Environment (Material)</TAG>
+               <VALUE>saline water (ENVO:00002010), including plankton (ENVO:xxxxxxxx)</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>Environmental Package</TAG>
+               <VALUE>water</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>Citation</TAG>
+               <VALUE>tbd</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>Further Details</TAG>
+               <VALUE>tbd</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>Project Name</TAG>
+               <VALUE>Tara Oceans</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>ENA-CHECKLIST</TAG>
+               <VALUE>ERC000030</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>73975208</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>15798071834</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-07-18</VALUE>
+          </SAMPLE_ATTRIBUTE>
+          <SAMPLE_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2014-11-06</VALUE>
+          </SAMPLE_ATTRIBUTE>
+     </SAMPLE_ATTRIBUTES>
+</SAMPLE>
+</ROOT>

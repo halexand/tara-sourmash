@@ -1,0 +1,25 @@
+#!/bin/bash
+#PBS -l walltime=6:00:00,nodes=1:ppn=2
+#PBS -l mem=4gb
+#PBS -A ged
+#PBS -j oe
+#export MKL_NUM_THREADS=8
+#export OMP_NUM_THREADS=8
+
+cd ${PBS_O_WORKDIR}
+module load gnu/4.8.3
+
+WD=/mnt/research/ged/halexand/tara
+cd $WD
+source activate py3.tara
+
+nWD=/mnt/research/ged/halexand/tara/PRJEB1787_head_tmp/sourmash-sigs/abundtrim/
+cd $nWD
+
+cat /mnt/research/ged/halexand/tara/PRJEB1787_head_tmp/sigFiles.abundtrim.k21.s1000.sig| parallel --jobs 10 "sourmash sbt_gather -k21 --dna ~ctb/sigs/microbes.sbt.json {} -o {}.sbt_gather.microbes"
+
+
+
+#qstat -f ${PBS_JOBID}
+#cat ${PBS_NODEFILE} # Output Contents of the PBS NODEFILE
+#env | grep PBS # Print out values of the current jobs PBS environment variables
