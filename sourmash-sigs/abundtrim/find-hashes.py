@@ -1,4 +1,11 @@
 #! /usr/bin/env python
+"""
+Given a list of sourmash signatures, find the common hashes and
+then output a file x hash matrix that can be used to cluster samples
+by common hashes.
+"""
+from __future__ import print_function
+
 import argparse
 import collections
 import sourmash_lib.signature

@@ -1,4 +1,9 @@
 #! /usr/bin/env python
+"""
+Given a list of sourmash signatures, find _the_ most common hash and
+output the list of source read files that contain that hash.
+"""
+from __future__ import print_function
 import argparse
 import collections
 import sourmash_lib.signature

@@ -1,4 +1,14 @@
 #! /usr/bin/env python
+"""
+Given a list of read files output by (e.g.) find-hashes-2.py, this
+script will extract all of the reads that are present in all of those
+read files (intersection of read files).
+
+It does this by filtering the collection of reads against a Bloom filter
+created from each read data set, using median k-mer abundance to decide
+on presence/absence.
+"""
+from __future__ import print_function
 import os
 
 import khmer
