@@ -99,8 +99,7 @@ def main():
         total_written += m
         print('total so far:', total_read, total_written)
 
-    print('final file is:', inputfile)
-    
+    print('Results are in *.collected.')
 
 if __name__ == '__main__':
     main()
