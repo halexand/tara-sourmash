@@ -14,6 +14,7 @@ import numpy
 
 def main():
     p = argparse.ArgumentParser()
+    p.add_argument('--min-samples', dest='min_samples', type=int)
     p.add_argument('inp_signatures', nargs='+')
     args = p.parse_args()
 
@@ -31,12 +32,12 @@ def main():
     n = 0
     abundant_hashes = set()
     for hash, count in counts.most_common():
-        if count < 60:
+        if count < args.min_samples:
             break
         n += 1
         abundant_hashes.add(hash)
 
-    print('found', n, 'hashes from', len(args.inp_signatures), 'signatures that had more than 60')
+    print('found', n, 'hashes from', len(args.inp_signatures), 'signatures that had more than ', args.min_samples)
 
     # go over the files again, this time creating an n x n_files matrix
     # with 0 etc.
