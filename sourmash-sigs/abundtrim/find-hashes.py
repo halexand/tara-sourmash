@@ -16,13 +16,14 @@ def main():
     p = argparse.ArgumentParser()
     p.add_argument('--min-samples', dest='min_samples', type=int)
     p.add_argument('inp_signatures', nargs='+')
+    p.add_argument('-k', '--ksize', default = 21, type=int)
     args = p.parse_args()
 
     counts = collections.Counter()
 
     print('loading signatures from', len(args.inp_signatures), 'files')
     for filename in args.inp_signatures:
-        sig = sourmash_lib.signature.load_one_signature(filename)
+        sig = sourmash_lib.signature.load_one_signature(filename, select_ksize=args.ksize)
         mh = sig.minhash
         hashes = mh.get_mins()
 
@@ -51,7 +52,7 @@ def main():
         hashdict[k] = n                   # hash -> index in hashlist
                          
     for fn, filename in enumerate(args.inp_signatures):
-        sig = sourmash_lib.signature.load_one_signature(filename)
+        sig = sourmash_lib.signature.load_one_signature(filename, select_ksize=args.ksize)
         mh = sig.minhash
         hashes = mh.get_mins()
 
